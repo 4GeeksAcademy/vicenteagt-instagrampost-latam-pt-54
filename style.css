@@ -1,0 +1,128 @@
+body{
+     font-family: Roboto, sans-serif;
+     background-color: black;
+     height: 55em;
+}
+
+.post{
+    width: 35em;
+    height: 40em;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 5em;
+    
+}
+.postheader{
+width: 35em;
+    height: 3.5em;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.imgpost{
+width: 35em;
+    height: 25em;
+    background-color: white;
+}
+.iconspost{
+width: 35em;
+    height: 3.5em;
+    background-color: white;
+      display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.likespost{
+width: 35em;
+    height: 3em;
+    background-color: white;
+}
+.infopost{
+width: 35em;
+    height: 6em;
+    background-color: white;
+}
+
+h1{
+    font-size: 16px;
+    position: relative;
+    right: 112px
+}
+h2{
+    font-size: 16px;
+    position: relative;
+    right: 290px;
+    top: 16px;
+    font-weight:200;
+
+}
+.htmlicon{
+    width: 30px;
+    height: 30px;
+    font-size: 33px;
+    position:relative;
+    top:10px;
+    left: 13px;
+}
+.ellipsis{
+    width: 30px;
+    height: 30px;
+    font-size: 32px;
+    position:relative;
+    top:10px;
+    left:10px;
+}
+.imgpost img{
+    width: 35em;
+    height: 25em;
+}
+.heart{
+ width: 30px;
+    height: 30px;
+    font-size: 33px;
+    position:relative;
+    left: 10px;
+    top: 5px;
+}
+.message{
+ width: 30px;
+    height: 30px;
+    font-size: 33px;
+    position:relative;
+    right: 122px;
+    top: 5px;
+}
+.airplane{
+ width: 30px;
+    height: 30px;
+    font-size: 33px;
+    position:relative;
+    right: 252px;
+    top: 5px;
+}
+.save{
+     width: 30px;
+    height: 30px;
+    font-size: 33px;
+    position:relative;
+    top: 5px;
+    right: 10px;
+}
+span{
+    font-weight: 600;
+}
+.likespost p{
+    position: relative;
+    left: 10px;
+    font-size:16px;
+}
+.infopost p{
+    text-align: justify;
+    padding: 1.5%;
+    font-size:16px;
+    position: relative;
+    top: -30px;
+}
